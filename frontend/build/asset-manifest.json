@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1cbab2de.css",
+    "main.js": "/static/js/main.d27fa3ed.js",
+    "static/media/Spotify.png": "/static/media/Spotify.9b42729b63987c02cf3c.png",
+    "static/media/Amazon.png": "/static/media/Amazon.b9626479882e79cc462f.png",
+    "static/media/apple.png": "/static/media/apple.70ada8eff40792b59482.png",
+    "static/media/Microsoft.png": "/static/media/Microsoft.6be2f23bf5a44bbf33df.png",
+    "static/media/Google.png": "/static/media/Google.03ef14881b3069c6552d.png",
+    "index.html": "/index.html",
+    "main.1cbab2de.css.map": "/static/css/main.1cbab2de.css.map",
+    "main.d27fa3ed.js.map": "/static/js/main.d27fa3ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cbab2de.css",
+    "static/js/main.d27fa3ed.js"
+  ]
+}
