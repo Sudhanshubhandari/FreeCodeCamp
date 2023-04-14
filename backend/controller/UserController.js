@@ -1,6 +1,6 @@
 import User from "../models/userModel.js";
 import generateToken from "../utils/generateToken.js";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 import asyncHandler from "express-async-handler"
 
 export const authUser = asyncHandler(async (req, res) => {

@@ -1,9 +1,10 @@
 import express from "express";
-import dotenv from "dotenv";
+import * as dotenv from 'dotenv'
 import connectDB from "./config/db.js";
 import userRoutes from "./routes/userRoute.js"
 import courseRoutes from "./routes/coursesRoute.js";
 import { errorHandler, notFoundHandler } from "./middleware/errorMiddleware.js";
+import path from "path";
 
 dotenv.config();
 connectDB();
@@ -15,6 +16,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/config/google", (req, res) =>
   res.send(process.env.GOOGLE_CLIENT_ID)
 );
+const __dirname = path.resolve();
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "/frontend/build")));

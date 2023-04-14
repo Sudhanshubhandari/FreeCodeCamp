@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import dotenv from "dotenv";
+import * as dotenv from 'dotenv'
 import courses from "./data/data.js";
 import Course from "./models/coursemodel.js";
 import connectDB from "./config/db.js";
